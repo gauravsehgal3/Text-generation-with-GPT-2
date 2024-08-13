@@ -1,7 +1,7 @@
 # Text-generation-with-GPT-2
 This repository contains code and resources for generating text using OpenAI’s GPT-2 model. GPT-2 is a large transformer-based language model capable of generating coherent and contextually relevant text based on a given prompt.
 
-Table of Contents
+# Table of Contents
 
 	•	Installation
 	•	Usage
@@ -11,7 +11,7 @@ Table of Contents
 	•	Contributing
 	•	License
 
-Installation
+# Installation
 
 	1.	Clone the repository:
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 The requirements.txt file includes essential libraries such as transformers, torch, and others necessary for running GPT-2.
 
-Usage
+# Usage
 
 To generate text using GPT-2, you can run the generate_text.py script. This script takes a prompt as input and generates text based on it.
 
@@ -54,7 +54,7 @@ Generated Text: “In the future, AI will revolutionize industries, from healthc
 	•	Prompt: “The secrets of the universe lie”
 Generated Text: “The secrets of the universe lie within the fabric of spacetime. Scientists have long debated whether…”
 
-Training
+# Training
 
 This repository also includes scripts for training and fine-tuning GPT-2 on your own datasets.
 
@@ -70,7 +70,7 @@ Arguments:
 	•	--epochs: Number of training epochs.
 	•	--batch_size: Batch size for training.
 
-Model Fine-Tuning
+# Model Fine-Tuning
 
 If you’d like to fine-tune GPT-2 on a specific domain or set of texts, you can use the fine_tune.py script:
 
@@ -78,7 +78,7 @@ python fine_tune.py --dataset_path ./data/my_dataset.txt --model_save_path ./mod
 
 This will allow you to save a custom fine-tuned GPT-2 model that you can later use for more specific text generation tasks.
 
-Contributing
+# Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any ideas, suggestions, or bug reports.
 
@@ -91,6 +91,6 @@ Steps to Contribute:
 	5.	Push to the branch (git push origin feature-branch).
 	6.	Open a pull request.
 
-License
+# License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
